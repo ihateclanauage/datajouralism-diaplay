@@ -91,6 +91,17 @@
     background: cadetblue;
 }
 
-.author {
-    
+.reference {
+    text-align: justify;
+    text-justify: inter-ideograph;
+    margin: 0 auto;
+    width: 45rem;
+    line-height: 2em;
+    font-size: smaller;
+}
+
+.thank {
+    margin: 0 auto;
+    line-height: 2em;
+    font-size: smaller;
 }
