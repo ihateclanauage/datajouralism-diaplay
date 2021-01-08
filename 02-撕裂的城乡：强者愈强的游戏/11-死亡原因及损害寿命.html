@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="e9a3f482a98b42cfba2c74f77501371f" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_e9a3f482a98b42cfba2c74f77501371f = echarts.init(
+            document.getElementById('e9a3f482a98b42cfba2c74f77501371f'), 'white', {renderer: 'canvas'});
+        var option_e9a3f482a98b42cfba2c74f77501371f = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "radar",
+            "name": "1990\u5e74\uff1a\u6b7b\u4ea1\u539f\u56e0\u53ca\u635f\u5bb3\u5bff\u547d(\u5e74)",
+            "data": [
+                [
+                    2298,
+                    1077,
+                    526,
+                    1764,
+                    644,
+                    1087,
+                    613,
+                    179,
+                    2352,
+                    329
+                ]
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "itemStyle": {
+                "normal": {
+                    "color": "#f9713c"
+                }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "radar",
+            "name": "2017\u5e74\uff1a\u6b7b\u4ea1\u539f\u56e0\u53ca\u635f\u5bb3\u5bff\u547d(\u5e74)",
+            "data": [
+                [
+                    2633,
+                    2057,
+                    1065,
+                    952,
+                    781,
+                    751,
+                    541,
+                    374,
+                    336,
+                    312
+                ]
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "itemStyle": {
+                "normal": {
+                    "color": "#b3e4a1"
+                }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "1990\u5e74\uff1a\u6b7b\u4ea1\u539f\u56e0\u53ca\u635f\u5bb3\u5bff\u547d(\u5e74)",
+                "2017\u5e74\uff1a\u6b7b\u4ea1\u539f\u56e0\u53ca\u635f\u5bb3\u5bff\u547d(\u5e74)"
+            ],
+            "selected": {
+                "1990\u5e74\uff1a\u6b7b\u4ea1\u539f\u56e0\u53ca\u635f\u5bb3\u5bff\u547d(\u5e74)": true,
+                "2017\u5e74\uff1a\u6b7b\u4ea1\u539f\u56e0\u53ca\u635f\u5bb3\u5bff\u547d(\u5e74)": true
+            },
+            "show": true,
+            "bottom": "1%",
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "radar": {
+        "indicator": [
+            {
+                "name": "\u4e2d\u98ce",
+                "max": 2650
+            },
+            {
+                "name": "\u7f3a\u8840\u6027\u5fc3\u810f\u75be\u75c5",
+                "max": 2650
+            },
+            {
+                "name": "\u6c14\u7ba1\u3001\u652f\u6c14\u7ba1\u548c\u80ba\u764c",
+                "max": 2650
+            },
+            {
+                "name": "\u6162\u6027\u963b\u585e\u6027\u80ba\u75be\u75c5",
+                "max": 2650
+            },
+            {
+                "name": "\u809d\u764c",
+                "max": 2650
+            },
+            {
+                "name": "\u4ea4\u901a\u4e8b\u6545",
+                "max": 2650
+            },
+            {
+                "name": "\u80c3\u764c",
+                "max": 2650
+            },
+            {
+                "name": "\u75f4\u5446\u75c7",
+                "max": 2650
+            },
+            {
+                "name": "\u795e\u7ecf\u6027\u75be\u75c5",
+                "max": 2650
+            },
+            {
+                "name": "\u9ad8\u8840\u538b\u5fc3\u810f\u75c5",
+                "max": 2650
+            }
+        ],
+        "shape": "circle",
+        "name": {
+            "textStyle": {}
+        },
+        "splitLine": {
+            "show": true,
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            }
+        },
+        "splitArea": {
+            "show": true,
+            "areaStyle": {
+                "opacity": 0
+            }
+        },
+        "axisLine": {
+            "show": true,
+            "onZero": true,
+            "onZeroAxisIndex": 0
+        }
+    },
+    "title": [
+        {
+            "text": "1990-2017\u5e74\u5404\u7c7b\u75be\u75c5\u6b7b\u4ea1\u635f\u5bb3\u5bff\u547d",
+            "subtext": "\u6570\u636e\u6765\u6e90\uff1a\u67f3\u53f6\u5200",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_e9a3f482a98b42cfba2c74f77501371f.setOption(option_e9a3f482a98b42cfba2c74f77501371f);
+    </script>
+</body>
+</html>
