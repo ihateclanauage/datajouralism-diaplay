@@ -4,6 +4,11 @@
     width: 45rem;
 }
 
+html {
+    width: 100%;
+    overflow-x: hidden;
+}
+
 .article {
     text-align: justify;
     text-justify: inter-ideograph;
@@ -11,6 +16,16 @@
     width: 45rem;
     line-height: 2em;
     color: darkslategray;
+}
+
+.mobile {
+    text-align:justify;
+    text-justify: inter-ideograph;
+    margin: 0 auto;
+    line-height:2em;
+    color: darkslategray;
+    padding-left: 4em;
+    padding-right: 4em;
 }
 
 .move-graph, .pEco-graph, .report-graph{
