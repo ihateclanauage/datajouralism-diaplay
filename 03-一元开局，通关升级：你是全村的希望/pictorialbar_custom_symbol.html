@@ -2,16 +2,23 @@
 <html>
 <head>
     <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=yes">
     <title>Awesome-pyecharts</title>
             <script type="text/javascript" src="https://cdn.kesci.com/lib/pyecharts_assets/echarts.min.js"></script>
 
+	<style type="text/css">
+            html,body{
+                height:100%;
+                width:100%
+            }
+        </style>
 </head>
-<body>
-    <div id="607451a5f0f646f2bdedf57626349261" class="chart-container" style="width:900px; height:500px;"></div>
+<body onresize="resizeFresh()">
+    <div id="dd6f278fb0d0483cb92af597d921fa6f" class="chart-container" style="width:95%; height:95%; margin: auto; top: 30px"></div>
     <script>
-        var chart_607451a5f0f646f2bdedf57626349261 = echarts.init(
-            document.getElementById('607451a5f0f646f2bdedf57626349261'), 'white', {renderer: 'canvas'});
-        var option_607451a5f0f646f2bdedf57626349261 = {
+        var chart_dd6f278fb0d0483cb92af597d921fa6f = echarts.init(
+            document.getElementById('dd6f278fb0d0483cb92af597d921fa6f'), 'white', {renderer: 'canvas'});
+        var option_dd6f278fb0d0483cb92af597d921fa6f = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -85,7 +92,7 @@
             "selected": {
                 "\u5404\u5730\u533a\u533b\u751f\u5e73\u5747\u5e74\u6536\u5165(\u4e07)": true
             },
-            "show": true,
+            "show": false,
             "padding": 5,
             "itemGap": 10,
             "itemWidth": 25,
@@ -202,7 +209,15 @@
         }
     ]
 };
-        chart_607451a5f0f646f2bdedf57626349261.setOption(option_607451a5f0f646f2bdedf57626349261);
+        chart_dd6f278fb0d0483cb92af597d921fa6f.setOption(option_dd6f278fb0d0483cb92af597d921fa6f);
     </script>
+	<script>
+         //窗口大小变化时候，进行刷新页面操作，防止样式混乱
+             var x=window.innerWidth;
+         function resizeFresh(){
+             if(x!=window.innerWidth)
+                 location.reload();
+         }
+     </script>
 </body>
 </html>
